@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 # core - base
-ruby '3.3.7'
+ruby '3.3.6'
 gem 'rails', '~> 7.2.0'
 gem 'rake'
 
@@ -18,7 +18,7 @@ gem 'parallel'
 gem 'puma', group: :puma
 
 # core - supported ORMs
-gem 'mysql2', group: :mysql
+# gem 'mysql2', group: :mysql
 gem 'pg', '~> 1.5', '>= 1.5.4', group: :postgres
 
 # core - asynchrous task execution
